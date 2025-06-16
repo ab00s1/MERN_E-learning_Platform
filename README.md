@@ -33,7 +33,7 @@ Learnera is a modern e-learning platform built with the MERN stack (MongoDB, Exp
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/ab00s1/MERN_E-learning_Platform.git
    cd E-Learning Platform
    ```
 2. **Install dependencies:**

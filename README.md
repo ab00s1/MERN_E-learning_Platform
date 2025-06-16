@@ -80,5 +80,4 @@ E-Learning Platform/
 
 ## Demo
 
-<!-- [![Watch the demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID) -->
-
+[![Watch Demo Video](https://via.placeholder.com/800x450.png?text=Demo+Video)](https://drive.google.com/file/d/16HaE3ssn87XpTCtKP9Ss11T28FLlkN3m/view?usp=sharing)

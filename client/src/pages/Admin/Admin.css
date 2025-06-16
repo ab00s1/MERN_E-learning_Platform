@@ -1,0 +1,245 @@
+/* AddCourse Admin Page Styles */
+.add-course-admin-container {
+  max-width: 500px;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px 24px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 108, 223, 0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-course-admin-title {
+  color: #2d6cdf;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.add-course-admin-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.add-course-admin-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.add-course-admin-row label {
+  font-weight: 600;
+  color: #333;
+}
+.add-course-admin-row label span {
+  color: #d32f2f;
+  margin-left: 2px;
+}
+
+.add-course-admin-row input[type="text"],
+.add-course-admin-row input[type="number"],
+.add-course-admin-row textarea {
+  padding: 8px 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f7fafd;
+  transition: border 0.2s;
+}
+.add-course-admin-row input[type="text"]:focus,
+.add-course-admin-row input[type="number"]:focus,
+.add-course-admin-row textarea:focus {
+  border: 1.5px solid #2d6cdf;
+  outline: none;
+}
+
+.add-course-admin-row input[type="file"] {
+  padding: 4px 0;
+}
+
+.add-course-admin-image-preview {
+  margin-top: 8px;
+  max-width: 100%;
+  max-height: 120px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(44, 108, 223, 0.10);
+}
+
+.add-course-admin-btn {
+  margin-top: 10px;
+  padding: 10px 36px;
+  background: #2d6cdf;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-course-admin-btn:disabled {
+  background: #b3c6e6;
+  cursor: not-allowed;
+}
+.add-course-admin-btn:hover:not(:disabled) {
+  background: #1b4e9b;
+}
+
+.add-course-admin-error {
+  color: #d32f2f;
+  background: #ffeaea;
+  border: 1px solid #f8bcbc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-size: 1.05rem;
+  text-align: center;
+}
+.add-course-admin-success {
+  color: #388e3c;
+  background: #eaffea;
+  border: 1px solid #b6e6bc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .add-course-admin-container {
+    padding: 12px 2vw 12px 2vw;
+  }
+  .add-course-admin-title {
+    font-size: 1.3rem;
+  }
+}
+
+/* AddLecture Admin Page Styles */
+.add-lecture-admin-container {
+  max-width: 500px;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px 24px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 108, 223, 0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-lecture-admin-title {
+  color: #2d6cdf;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.add-lecture-admin-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.add-lecture-admin-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.add-lecture-admin-row label {
+  font-weight: 600;
+  color: #333;
+}
+.add-lecture-admin-row label span {
+  color: #d32f2f;
+  margin-left: 2px;
+}
+
+.add-lecture-admin-row input[type="text"],
+.add-lecture-admin-row textarea {
+  padding: 8px 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f7fafd;
+  transition: border 0.2s;
+}
+.add-lecture-admin-row input[type="text"]:focus,
+.add-lecture-admin-row textarea:focus {
+  border: 1.5px solid #2d6cdf;
+  outline: none;
+}
+
+.add-lecture-admin-row input[type="file"] {
+  padding: 4px 0;
+}
+
+.add-lecture-admin-video-preview {
+  margin-top: 8px;
+  max-width: 100%;
+  max-height: 180px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(44, 108, 223, 0.10);
+}
+
+.add-lecture-admin-btn {
+  margin-top: 10px;
+  padding: 12px 0;
+  background: #2d6cdf;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-lecture-admin-btn:disabled {
+  background: #b3c6e6;
+  cursor: not-allowed;
+}
+.add-lecture-admin-btn:hover:not(:disabled) {
+  background: #1b4e9b;
+}
+
+.add-lecture-admin-error {
+  color: #d32f2f;
+  background: #ffeaea;
+  border: 1px solid #f8bcbc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-size: 1.05rem;
+  text-align: center;
+}
+.add-lecture-admin-success {
+  color: #388e3c;
+  background: #eaffea;
+  border: 1px solid #b6e6bc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .add-lecture-admin-container {
+    padding: 12px 2vw 12px 2vw;
+  }
+  .add-lecture-admin-title {
+    font-size: 1.3rem;
+  }
+}

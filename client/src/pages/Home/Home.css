@@ -1,0 +1,119 @@
+/* Home.css - Styles for Home page */
+
+.home-container {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px 24px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 108, 223, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-title {
+  color: #2d6cdf;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.home-subtitle {
+  color: #444;
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.home-btn {
+  background: #2d6cdf;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 32px;
+  transition: background 0.2s;
+}
+
+.home-btn:hover {
+  background: #1b4e9b;
+}
+
+.admin-dashboard-btn {
+  margin-top: 12px;
+  background: #388e3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 12px 0;
+  width: 220px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(56, 142, 60, 0.10);
+  display: block;
+}
+
+.admin-dashboard-btn:hover {
+  background: #256d27;
+}
+
+.home-section {
+  width: 100%;
+  margin-bottom: 32px;
+  background: #f7fafd;
+  border-radius: 8px;
+  padding: 20px 16px 10px 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.home-section h2 {
+  color: #2d6cdf;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.home-features {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.home-features li {
+  color: #333;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  padding-left: 0.5em;
+  position: relative;
+}
+
+.home-features li:before {
+  content: "✔";
+  color: #2d6cdf;
+  margin-right: 8px;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .home-container {
+    padding: 12px 2vw 12px 2vw;
+  }
+  .home-title {
+    font-size: 1.3rem;
+  }
+  .home-section {
+    padding: 10px 2vw 6px 2vw;
+  }
+  .admin-dashboard-btn {
+    width: 50%;
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+}

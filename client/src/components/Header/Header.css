@@ -1,0 +1,156 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-bottom: 1px solid #eee;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  color: #2d6cdf;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-link:hover, .nav-link.active {
+  background: #2d6cdf;
+  color: #fff;
+}
+
+.profile-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.profile-icon:focus,
+.profile-icon:hover {
+  background: #e6f0fa;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 110%;
+  background: #fff;
+  min-width: 140px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  border-radius: 6px;
+  z-index: 100;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+.profile-dropdown:focus-within .dropdown-content,
+.profile-dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown-link {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+.dropdown-link:hover {
+  background: #2d6cdf;
+  color: #fff;
+}
+
+.header-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e6f0fa;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(45,108,223,0.07);
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .header {
+    padding: 12px 10px;
+  }
+  .logo h1 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  .book {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .nav {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-center;
+  }
+  .nav-link, .profile-icon {
+    font-size: 1rem;
+    padding: 6px 8px;
+  }
+  .dropdown-content {
+    min-width: 120px;
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 8px 2vw;
+  }
+  .logo h1 {
+    font-size: 1rem;
+  }
+  .book {
+    width: 1rem;
+    height: 1rem;
+  }
+  .nav {
+    gap: 6px;
+  }
+  .nav-link, .profile-icon {
+    font-size: 0.95rem;
+    padding: 5px 4px;
+  }
+  .dropdown-content {
+    min-width: 100px;
+    font-size: 0.95rem;
+  }
+}

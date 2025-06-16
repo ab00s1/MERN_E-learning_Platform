@@ -1,0 +1,214 @@
+/* Profile.css - Modern, clean styles for Profile page */
+
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px 24px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 108, 223, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-title {
+  color: #2d6cdf;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.profile-card {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2d6cdf;
+  margin-bottom: 6px;
+}
+
+.profile-upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile-upload-input {
+  margin-bottom: 4px;
+}
+
+.profile-upload-btn {
+  background: #2d6cdf;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.profile-upload-btn:disabled {
+  background: #a0b8e6;
+  cursor: not-allowed;
+}
+
+.profile-upload-btn:not(:disabled):hover {
+  background: #1b4e9b;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 1.08rem;
+  color: #333;
+  margin-top: 8px;
+}
+
+.profile-courses {
+  width: 100%;
+  background: #f7fafd;
+  border-radius: 8px;
+  padding: 18px 16px 10px 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.profile-courses h2 {
+  color: #2d6cdf;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.profile-courses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.profile-courses li {
+  color: #333;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  padding-left: 0.5em;
+  position: relative;
+  text-align: left;
+}
+
+.profile-courses li:before {
+  content: "•";
+  color: #2d6cdf;
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+.profile-no-courses {
+  color: #888;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.profile-error {
+  color: #d32f2f;
+  background: #ffeaea;
+  border: 1px solid #f8bcbc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  width: 100%;
+  font-size: 0.98rem;
+  text-align: center;
+}
+
+.profile-courses-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile-course-item {
+  background: #f7fafd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(44, 108, 223, 0.07);
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.profile-course-title {
+  font-weight: 600;
+  color: #2d6cdf;
+  font-size: 1.08rem;
+}
+
+.profile-course-category {
+  background: #e6f0fa;
+  color: #2d6cdf;
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-size: 0.98rem;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.profile-course-duration {
+  background: #eaffea;
+  color: #388e3c;
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-size: 0.98rem;
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .profile-container {
+    padding: 12px 2vw 12px 2vw;
+  }
+  .profile-title {
+    font-size: 1.3rem;
+  }
+  .profile-courses-list {
+    max-width: 98vw;
+    gap: 8px;
+  }
+  .profile-course-item {
+    padding: 10px 8px;
+    font-size: 0.98rem;
+  }
+}

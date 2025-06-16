@@ -1,0 +1,63 @@
+/* About.css - Modern, clean styles for About page */
+
+.about-container {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 32px 24px 24px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 108, 223, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  color: #2d6cdf;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.about-intro {
+  color: #444;
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.about-section {
+  width: 100%;
+  margin-bottom: 24px;
+  background: #f7fafd;
+  border-radius: 8px;
+  padding: 20px 16px 10px 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #2d6cdf;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  color: #333;
+  font-size: 1.05rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    padding: 12px 2vw 12px 2vw;
+  }
+  .about-title {
+    font-size: 1.3rem;
+  }
+  .about-section {
+    padding: 10px 2vw 6px 2vw;
+  }
+}

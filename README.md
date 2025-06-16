@@ -80,4 +80,4 @@ E-Learning Platform/
 
 ## Demo
 
-[![Watch Demo Video](https://via.placeholder.com/800x450.png?text=Demo+Video)](https://drive.google.com/file/d/16HaE3ssn87XpTCtKP9Ss11T28FLlkN3m/view?usp=sharing)
+[![Watch Demo Video](https://www.techsmith.com/wp-content/uploads/2020/09/make-demo-video.png)](https://drive.google.com/file/d/16HaE3ssn87XpTCtKP9Ss11T28FLlkN3m/view?usp=sharing)
